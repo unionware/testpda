@@ -31,8 +31,6 @@ public class InvokeErpFactory {
 	public static final String ERP_BIZTYPE_QDOSSIER="queryDossier"; //条码查询
 	public static final String ERP_BIZTYPE_ANALYTIC="queryanalytic";//解析规则查询
 	
-
-	
 	
 	
 	public static BaseInvokeExec getAgent(String type){
@@ -49,5 +47,9 @@ public class InvokeErpFactory {
 			}else if(ERP_BIZTYPE_QBARFLOW.equals(bizType)){
 				
 			}
+	}
+
+	public static void  demoTest(){
+ 			return ;
 	}
 }
